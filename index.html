@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Dog Friends</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is what search sees">
+        <link rel="icon" href="img/icon-default.ico">
+        <link href="https://fonts.googleapis.com/css?family=Roboto"
+            rel="stylesheet" type='text/css'>
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/icon-default.ico">
+                <h1>Warp Trail</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a
+                            target="_blank" href="https://github.com/warptrail">
+                            Github
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://accounts.thinkful.com/login?_next=https://dashboard.thinkful.com/">
+                            Thinkful
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/whitmorespaceindustries/"
+                            target="_blank">
+                            Linkedin
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://soundcloud.com/warptrail"
+                            target="_blank">
+                            Soundcloud
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.spacejam.com/
+                            target="_blank"">Space Jam</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div class="container">
+            <h1>Dog API: A Simple Example</h1>
+
+            <form>
+                <label for="dogNumber">How many Dogs to see?</label>
+                <input type="number" class="userInput" placeholder="3" id="dogNumber" min="1" max="50">
+
+                <label for="breed-search">Select Breed</label>
+                <input type="text" id="breedSearch">
+
+                <input type="submit" value="See Dog Friends">
+            </form>
+            <section class="results hidden">
+                <h2>Look at this dog!</h2>
+                <div class="results">
+
+                </div>
+            </section>
+        </div>
+
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
